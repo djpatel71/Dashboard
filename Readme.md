@@ -1,5 +1,6 @@
 <h1 align ="center" > EMD DASHBOARD  </h1>
 <br/>
+
   * [Configuration and Setup](#configuration-and-setup)
   * [Key Features](#key-features)
   * [Technologies used](#technologies-used)
