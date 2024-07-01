@@ -1,4 +1,4 @@
-<H1 align ="center" > EMD DASHBOARD  </h1>
+<h1 align ="center" > EMD DASHBOARD  </h1>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
