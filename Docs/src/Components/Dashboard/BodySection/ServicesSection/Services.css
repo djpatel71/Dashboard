@@ -1,0 +1,217 @@
+/* Colors adn Styles (Default) */
+:root {
+  --PrimaryColor: hsl(94, 59%, 35%);
+  --HoverColor: #bdf094;
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+.listingSection {
+  max-width: 900px;
+  width: 100%;
+  padding: 10px;
+  background-color: var(--bgColor);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.heading {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.heading h1{
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: var(--PrimaryColor);
+  color: var(--whiteColor);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #bdf094;
+  color: hsl(93, 22%, 41%);
+  border: 1px solid hsl(94, 59%, 19%) ;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.secContainer {
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.singleItem {
+  width: 80%;
+  height: 80%;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.5s ease-in-out;
+}
+
+.singleItem img {
+  width: 25%;
+  height: 25%;
+  margin-bottom: 5px;
+}
+
+.singleItem h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.singleItem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.secContainer.showAll.singleItem {
+  width: 100%;
+  margin: 0;
+  transform: translateX(0);
+}
+
+.secContainer:not(.showAll).singleItem {
+  transform: translateX(-100%);
+}
+
+.secContainer:not(.showAll).singleItem.active {
+  transform: translateX(0);
+}
+
+.popup {
+  position: relative;
+  top: 25%;
+  left: 20%;
+  width: 100%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: +5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  width: 100%;
+  height: 60%;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0)
+}
+.singleItems {
+  width: 40%;
+  height: 40%;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease-in-out;
+}
+.singleItems:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.singleItems img {
+  width: 20%;
+  height: 20%;
+}
+
+.close{
+  position: absolute;
+  top: 10px; 
+  right: 5px;
+  padding: 5px 10px;
+  background-color: var(--PrimaryColor);
+  color: var(--whiteColor);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.close:hover {
+  background-color: #bdf094;
+  color: hsl(93, 22%, 41%);
+  border: 1px solid hsl(94, 59%, 19%) ;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 990px) and (min-width: 918px) {
+  .singleItem {
+    width: 100%;
+    padding: 5px; 
+  }
+  .heading {
+    align-items: flex-start;
+  }
+  .btn {
+      margin-left: auto ;
+      margin-top: -50px; 
+  }
+}
+
+@media only screen and (max-width: 918px) {
+  .popup-content {
+    width: 98%; 
+    height: 98%;
+    padding: 5px; 
+    font-size: 6px; 
+  }
+  .popup{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+  }
+  .singleItems {
+    width: 45%;
+    padding: 5px; 
+  }
+  .singleItems img {
+    width: 10%;
+    height: 10%;
+  }
+  .close{
+      top: 5px; 
+      right: 10px;
+  }
+}
