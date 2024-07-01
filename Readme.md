@@ -22,7 +22,7 @@ In the first terminal
 
 ```
 $ cd client
-$ npm install chart.js
+$ npm install chart.js (to chart js dependencies)
 $ npm install (to install client-side dependencies)
 $ npm run dev(to start the client)
 ```
@@ -52,7 +52,7 @@ $ npm start (to start the server)
 
 This project was created using the following technologies.
 
-####  Frontend 
+###  Frontend 
 
 - [React js ](https://www.npmjs.com/package/react) - JavaScript library that is used for building user interfaces specifically for single-page applications
 - [React Hooks  ](https://reactjs.org/docs/hooks-intro.html) - For managing and centralizing application state
@@ -64,16 +64,14 @@ This project was created using the following technologies.
  - [Char js](https://www.npmjs.com/package/chart.js) - For flexible JavaScript charting library for creating beautiful charts.
 
 
-####  Backend 
+### Backend 
 
 - [Node js](https://nodejs.org/en/) -A runtime environment to help build fast server applications using JS
 - [Express js](https://www.npmjs.com/package/express) -The server for handling and routing HTTP requests
 - [mysql](https://www.npmjs.com/package/mysql) - For authentication
 - [cors](https://www.npmjs.com/package/uuid) - Provides a Connect/Express middleware
 
-####  Database 
+###  Database 
 
  - [MySQL ](https://www.mysql.com/) - It provides a free cloud service to store MongoDB collections.
-
-
-# Dashboard
+##
