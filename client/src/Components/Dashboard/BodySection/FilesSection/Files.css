@@ -1,7 +1,7 @@
 .FileDownloadContainer {
   width: 100%;
-  margin: 2vh 0;
-  padding: 3vh;
+  margin: 3vh 0;
+  padding: 2vh;
   background-color: var(--bgColor);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -116,7 +116,7 @@
 
  @media (max-width: 919px) {
   .FileDownloadContainer{
-    margin-top: 30px;
+    margin: 4vh 0;
   }
   .FileUploadContainer input[type="file"] {
     width: 100%;

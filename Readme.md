@@ -22,7 +22,7 @@ In the first terminal
 
 ```
 $ cd client
-$ npm install chart.js (to chart js dependencies)
+$ npm install chart.js (to install chart js dependencies)
 $ npm install (to install client-side dependencies)
 $ npm run dev(to start the client)
 ```
@@ -74,4 +74,4 @@ This project was created using the following technologies.
 ###  Database 
 
  - [MySQL ](https://www.mysql.com/) - It provides a free cloud service to store MongoDB collections.
-##
+# Dashboard

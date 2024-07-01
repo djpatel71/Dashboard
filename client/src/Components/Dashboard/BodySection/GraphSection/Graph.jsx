@@ -34,7 +34,7 @@ const Graph = () => {
             label: "Earnings",
             data: filteredEarningsData.map((data) => data.earning),
             borderColor: "hsl(94, 59%, 35%)",
-            backgroundColor: "rgba(52, 152, 219, 0.2)",
+            backgroundColor: "hsl(94, 84%, 69%)",
             animation: {
               duration: 1000, // 1 second animation
               easing: "easeInOutQuart",

@@ -16,7 +16,11 @@
 }
 .Services, .Graph {
   flex: 1;
-  margin: 1vh;
+  height: 100%;
+  width: 100%;
+}
+.Services{
+  margin-right: 2vh;
 }
 .Files {
   width: 100%;
@@ -29,5 +33,8 @@
   .bottom {
     flex-direction: column;
   }
-
+  .Services{
+    margin-bottom:4vh;
+    margin-right: 0;
+  }
 }
