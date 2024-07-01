@@ -1,0 +1,33 @@
+.mainContent {
+  width: 82%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.Services, .Graph {
+  flex: 1;
+  margin: 1vh;
+}
+.Files {
+  width: 100%;
+  flex: 1;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 918px) {
+  .bottom {
+    flex-direction: column;
+  }
+
+}
