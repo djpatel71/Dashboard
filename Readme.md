@@ -1,6 +1,4 @@
 <H1 align ="center" > EMD DASHBOARD  </h1>
-<h5  align ="center"> 
-Fullstack open source login & register dashboard application made with MySql, Express, React & Nodejs (MERN) </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
@@ -74,4 +72,3 @@ This project was created using the following technologies.
 ###  Database 
 
  - [MySQL ](https://www.mysql.com/) - It provides a free cloud service to store MongoDB collections.
-# Dashboard
