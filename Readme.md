@@ -1,6 +1,5 @@
 <h1 align ="center" > EMD DASHBOARD  </h1>
 <br/>
-
   * [Configuration and Setup](#configuration-and-setup)
   * [Key Features](#key-features)
   * [Technologies used](#technologies-used)
@@ -43,8 +42,6 @@ $ npm start (to start the server)
 - User registration and login
 - Authentication using JWT Tokens
 - Responsive Design
-
-<br/>
 
 ##  Technologies used
 
