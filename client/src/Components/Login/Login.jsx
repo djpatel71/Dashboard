@@ -93,7 +93,7 @@ const Login = () => {
               <label htmlFor="password">Password</label>
               <div className="input flex">
                 <BsFillShieldLockFill className="icon" />
-                <input type="password" id='password' name="password" placeholder='Enter Password'
+                <input type="password" id='password' name="password" placeholder='Enter Password' 
                   value={loginState.password} onChange={handleInputChange} />
               </div>
             </div>
